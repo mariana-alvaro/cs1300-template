@@ -10,7 +10,7 @@ body{
     color: rgb(132, 158, 215);
     font-size: 35px;
     text-align: center;
-    font-family: gloria hallelujah;
+    font-family: gloria hallelujah, sans-serif;
     font-weight: bold;
     padding: 20px;
 }
@@ -18,14 +18,14 @@ body{
     color: rgb(132, 158, 215);
     font-size: 25px;
     text-align: center;
-    font-family: avenir;
+    font-family: avenir, sans-serif;
     font-weight: bold;
     padding: 12px;
 }
 .paragraph{
     display: flex;
     color: #000000;
-    font-family: avenir;
+    font-family: avenir, sans-serif;
     justify-content: center;
     padding-left: 8%;
     padding-right: 8%;
@@ -45,24 +45,9 @@ body{
     padding: 15px;
 }
 li{
-    font-family: gloria hallelujah;
+    font-family: gloria hallelujah, sans-serif;
 }
-.pcontainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin-top: 2%;
-    width: 85%;
-}
-.pcontainer2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin-top: 2%;
-    width: 85%;
-}
+
 .item2{
     flex-basis: auto;
     height: auto;
@@ -73,7 +58,7 @@ li{
 }
 .text{
     flex-basis: auto;
-    font-family: gloria hallelujah;
+    font-family: gloria hallelujah, sans-serif;
     text-align: justify;
     font-size: 15px;
     max-width: 350px;
