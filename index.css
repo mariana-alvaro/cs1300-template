@@ -1,1 +1,91 @@
-/* Put your style information here! */
+body{
+    margin: 1%;
+    padding: 5%;
+    margin-top: 0%;
+    padding-top: 0.5%;
+    background-color: white;
+    font-size: 18px;
+}
+.title{
+    color: rgb(132, 158, 215);
+    font-size: 35px;
+    text-align: center;
+    font-family: gloria hallelujah;
+    font-weight: bold;
+    padding: 20px;
+}
+.subtitle{
+    color: rgb(132, 158, 215);
+    font-size: 25px;
+    text-align: center;
+    font-family: avenir;
+    font-weight: bold;
+    padding: 12px;
+}
+.paragraph{
+    display: flex;
+    color: #000000;
+    font-family: avenir;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: justify;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.item{
+    flex-basis: auto;
+    height: auto;
+    width: 80%;
+    padding: 15px;
+}
+li{
+    font-family: gloria hallelujah;
+}
+.pcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 2%;
+    width: 85%;
+}
+.pcontainer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 2%;
+    width: 85%;
+}
+.item2{
+    flex-basis: auto;
+    height: auto;
+    width: 40%;
+    margin: 2%;
+    padding: 1%;
+    background-color:rgb(132, 158, 215);
+}
+.text{
+    flex-basis: auto;
+    font-family: gloria hallelujah;
+    text-align: justify;
+    font-size: 15px;
+    max-width: 350px;
+    align-self: center;
+}
+h2{
+    color:rgb(132, 158, 215) ;
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+    padding: 10px;
+}
