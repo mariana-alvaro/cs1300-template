@@ -41,6 +41,7 @@ body{
 .item{
     flex-basis: auto;
     height: auto;
+    max-height: 100%;
     width: 80%;
     padding: 15px;
 }
@@ -52,6 +53,7 @@ li{
     flex-basis: auto;
     height: auto;
     width: 40%;
+    max-height: 100%;
     margin: 2%;
     padding: 1%;
     background-color:rgb(132, 158, 215);
